@@ -1,0 +1,913 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../HTML CSS/project_2/src/sass/normalize1.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../HTML CSS/project_2/src/sass/normalize1.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../HTML CSS/project_2/src/sass/normalize1.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../HTML CSS/project_2/src/sass/normalize1.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../HTML CSS/project_2/src/sass/normalize1.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../HTML CSS/project_2/src/sass/normalize1.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../HTML CSS/project_2/src/sass/normalize1.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../HTML CSS/project_2/src/sass/normalize1.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../HTML CSS/project_2/src/sass/normalize1.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../HTML CSS/project_2/src/sass/normalize1.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../HTML CSS/project_2/src/sass/normalize1.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../HTML CSS/project_2/src/sass/normalize1.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../HTML CSS/project_2/src/sass/normalize1.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../HTML CSS/project_2/src/sass/normalize1.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../HTML CSS/project_2/src/sass/normalize1.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../HTML CSS/project_2/src/sass/normalize1.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../HTML CSS/project_2/src/sass/normalize1.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../HTML CSS/project_2/src/sass/normalize1.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../HTML CSS/project_2/src/sass/normalize1.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../HTML CSS/project_2/src/sass/normalize1.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../HTML CSS/project_2/src/sass/normalize1.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../HTML CSS/project_2/src/sass/normalize1.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../HTML CSS/project_2/src/sass/normalize1.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../HTML CSS/project_2/src/sass/normalize1.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../HTML CSS/project_2/src/sass/normalize1.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../HTML CSS/project_2/src/sass/normalize1.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../HTML CSS/project_2/src/sass/normalize1.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../HTML CSS/project_2/src/sass/normalize1.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../HTML CSS/project_2/src/sass/normalize1.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../HTML CSS/project_2/src/sass/normalize1.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../HTML CSS/project_2/src/sass/normalize1.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../HTML CSS/project_2/src/sass/normalize1.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../HTML CSS/project_2/src/sass/normalize1.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../HTML CSS/project_2/src/sass/normalize1.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../HTML CSS/project_2/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../HTML CSS/project_2/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../HTML CSS/project_2/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../HTML CSS/project_2/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../HTML CSS/project_2/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../HTML CSS/project_2/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../HTML CSS/project_2/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../HTML CSS/project_2/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../HTML CSS/project_2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../HTML CSS/project_2/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 27, ../HTML CSS/project_2/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 32, ../HTML CSS/project_2/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 38, ../HTML CSS/project_2/src/sass/style.sass */
+.main-section_nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 44, ../HTML CSS/project_2/src/sass/style.sass */
+.main-section_header {
+  width: 134px;
+}
+
+/* line 46, ../HTML CSS/project_2/src/sass/style.sass */
+.main-section_content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 50, ../HTML CSS/project_2/src/sass/style.sass */
+.main-section_first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 54, ../HTML CSS/project_2/src/sass/style.sass */
+.main-section_second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 61, ../HTML CSS/project_2/src/sass/style.sass */
+.nav-menu_list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 64, ../HTML CSS/project_2/src/sass/style.sass */
+.nav-menu_list-item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 68, ../HTML CSS/project_2/src/sass/style.sass */
+.nav-menu_list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 73, ../HTML CSS/project_2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 75, ../HTML CSS/project_2/src/sass/style.sass */
+.left-wrapper_img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 78, ../HTML CSS/project_2/src/sass/style.sass */
+.left-wrapper_rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565px;
+  height: 220px;
+  background: #5290ea;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 89, ../HTML CSS/project_2/src/sass/style.sass */
+.left-wrapper_rectangle-orange {
+  position: absolute;
+  width: 618px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #f28864;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-51deg);
+  z-index: 3;
+}
+
+/* line 100, ../HTML CSS/project_2/src/sass/style.sass */
+.left-wrapper_rectangle-gray {
+  position: absolute;
+  width: 609px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #e2e2e2;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-36deg);
+  z-index: 1;
+}
+
+/* line 112, ../HTML CSS/project_2/src/sass/style.sass */
+.right-wrapper {
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  width: 372px;
+  z-index: 1;
+}
+
+/* line 118, ../HTML CSS/project_2/src/sass/style.sass */
+.right-wrapper_icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 121, ../HTML CSS/project_2/src/sass/style.sass */
+.right-wrapper_title {
+  margin-bottom: 5px;
+}
+
+/* line 123, ../HTML CSS/project_2/src/sass/style.sass */
+.right-wrapper_text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 127, ../HTML CSS/project_2/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 130, ../HTML CSS/project_2/src/sass/style.sass */
+.icons_item {
+  width: 40px;
+  height: 40px;
+  margin-right: 17px;
+}
+
+/* line 134, ../HTML CSS/project_2/src/sass/style.sass */
+.icons_item:last-child {
+  margin-right: 0px;
+}
+
+/* line 137, ../HTML CSS/project_2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 141, ../HTML CSS/project_2/src/sass/style.sass */
+.title_hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 149, ../HTML CSS/project_2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 151, ../HTML CSS/project_2/src/sass/style.sass */
+.buttons_main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #f28864;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 162, ../HTML CSS/project_2/src/sass/style.sass */
+.buttons_icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 165, ../HTML CSS/project_2/src/sass/style.sass */
+.buttons_icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 167, ../HTML CSS/project_2/src/sass/style.sass */
+.buttons_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 171, ../HTML CSS/project_2/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 15%, rgba(72, 138, 234, 0.5) 54%, rgba(44, 44, 44, 0.5) 85%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 179, ../HTML CSS/project_2/src/sass/style.sass */
+.elipse_subtract {
+  width: 129px;
+  height: 129px;
+  background: #f0f0f0;
+  border-radius: 150px;
+}
+
+/* line 184, ../HTML CSS/project_2/src/sass/style.sass */
+.elipse_subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 187, ../HTML CSS/project_2/src/sass/style.sass */
+.elipse_big {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 191, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+}
+
+/* line 193, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 196, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_title {
+  margin-bottom: 40px;
+}
+
+/* line 198, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_cards-box {
+  display: inline-flex;
+  margin-bottom: 25px;
+}
+
+/* line 201, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_cards-item {
+  margin-right: 30px;
+}
+
+/* line 203, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 206, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 208, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 211, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 216, ../HTML CSS/project_2/src/sass/style.sass */
+.second-section_second-elipse {
+  position: absolute;
+  top: 364px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 222, ../HTML CSS/project_2/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 231, ../HTML CSS/project_2/src/sass/style.sass */
+.cards-item_img {
+  height: 335px;
+}
+
+/* line 233, ../HTML CSS/project_2/src/sass/style.sass */
+.cards-item_text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 144px;
+  right: -45px;
+  font-weight: bold;
+}
+
+/* line 243, ../HTML CSS/project_2/src/sass/style.sass */
+.cards-item_orange {
+  background: #f28864;
+}
+
+/* line 246, ../HTML CSS/project_2/src/sass/style.sass */
+.cards-item_blue {
+  background: #5290ea;
+}
+
+/* line 249, ../HTML CSS/project_2/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 252, ../HTML CSS/project_2/src/sass/style.sass */
+.icons-item_img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 255, ../HTML CSS/project_2/src/sass/style.sass */
+.icons-item_text {
+  font-size: 18px;
+}
+
+/* line 257, ../HTML CSS/project_2/src/sass/style.sass */
+.icons-item_text span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* line 261, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #f0f0f0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 267, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 274, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_right-wrapper {
+  max-width: 480px;
+  z-index: 1;
+}
+
+/* line 277, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_right-title {
+  margin-bottom: 20px;
+}
+
+/* line 279, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 282, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 287, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 292, ../HTML CSS/project_2/src/sass/style.sass */
+.third-section_second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 298, ../HTML CSS/project_2/src/sass/style.sass */
+.title_hr-top {
+  bottom: 75px;
+}
+
+/* line 302, ../HTML CSS/project_2/src/sass/style.sass */
+.footer_img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 306, ../HTML CSS/project_2/src/sass/style.sass */
+.footer_container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 311, ../HTML CSS/project_2/src/sass/style.sass */
+.footer_title {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
