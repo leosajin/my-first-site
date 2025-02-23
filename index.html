@@ -6,10 +6,33 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Уроки игры на гитаре</title>
     <meta name="description" content="Уроки игры на гитаре в Москве!">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <!-- Первая секция -->
     <section class="main-section">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <div class="container main-section_nav-container">
             <!-- Навигационное меню -->
             <header class="main-section_header">
@@ -17,16 +40,16 @@
             </header>
             <nav class="main-section_nav nav-menu">
                 <ul class="nav-menu_list">
-                    <li class="nav-menu_list-item">Обо мне</li>
-                    <li class="nav-menu_list-item">Занятия</li>
-                    <li class="nav-menu_list-item">Запись</li>
+                    <li class="nav-menu_list-item"> <a href="#about-me">Обо мне</a></li>
+                    <li class="nav-menu_list-item"> <a href="#lessons">Занятия</a></li>
+                    <li class="nav-menu_list-item"><a href="#">Запись</a></li>
                 </ul>
             </nav>
         </div>
         <div class="container main-section_content-container">
             <!-- левая часть первой секции -->
             <div class="left-wrapper">
-                <img src="img/boyguitar.png" alt="boyguitar" class="left-wrapper_img">
+                <img src="/src/img/boyguitar.png" alt="boyguitar" class="left-wrapper_img">
                 <div class="left-wrapper_rectangle-blue"></div>
                 <div class="left-wrapper_rectangle-orange"></div>
                 <div class="left-wrapper_rectangle-gray"></div>
@@ -36,16 +59,16 @@
                 <div class="right-wrapper_icons-box icons">
                     <!-- Иконки -->
                     <div class="icons_item"> 
-                        <img src="icons/Skype.svg" alt="#">
+                        <img src="/src/icons/Skype.svg" alt="#">
                     </div>
                     <div class="icons_item">
-                        <img src="icons/VK.svg" alt="#">
+                        <img src="/src/icons/VK.svg" alt="#">
                     </div>
                     <div class="icons_item">
-                        <img src="icons/Telegram.svg" alt="#">
+                        <img src="/src/icons/Telegram.svg" alt="#">
                     </div>
                     <div class="icons_item">
-                        <img src="icons/instagram.svg" alt="#">
+                        <img src="/src/icons/instagram.svg" alt="#">
                     </div>
                 </div>
                 <!-- Заголовок -->
@@ -58,7 +81,7 @@
                 <div class="right-wrapper_button buttons">
                     <button class="buttons_main-btn">Забронировать <br> урок</button>
                     <div class="right-wrapper_icon-btn buttons_icon-btn">
-                        <img src="icons/logo_chat.svg" alt="chat">
+                        <img src="/src/icons/logo_chat.svg" alt="chat">
                         <p class="buttons_text">Есть <br> вопросы?</p>
                     </div>
                 </div>
@@ -77,7 +100,7 @@
     </section>
 
     <!-- Вторая секция -->
-     <section class="second-section">
+     <section id="about-me" class="second-section">
         <div class="container second-section_container">
             <h2 class="second-section_title title">
                 Преподаю
@@ -87,15 +110,15 @@
             <!-- Карточки -->
             <div class="second-section_cards-box">
                 <div class="second-section_cards-item cards-item">
-                    <img src="img/Электро-гитара 1.png" alt="Электро-гитара" class="cards-item_img">
+                    <img src="/src/img/Электро-гитара 1.png" alt="Электро-гитара" class="cards-item_img">
                     <p class="cards-item_text">Электро <br>гитара</p>
                 </div>
                 <div class="second-section_cards-item cards-item cards-item_orange">
-                    <img src="img/Акустика-гитара 1.png" alt="Акустика-гитара" class="cards-item_img">
+                    <img src="/src/img/Акустика-гитара 1.png" alt="Акустика-гитара" class="cards-item_img">
                     <p class="cards-item_text">Акустическая <br> гитара</p>
                 </div>
                 <div class="second-section_cards-item cards-item cards-item_blue">
-                    <img src="img/Укулелли-гитара 1.png" alt="Укулелли-гитара" class="cards-item_img">
+                    <img src="/src/img/Укулелли-гитара 1.png" alt="Укулелли-гитара" class="cards-item_img">
                     <p class="cards-item_text">Укулеле <br>гитара</p>
                 </div>
             </div>
@@ -103,25 +126,25 @@
             <!-- Иконки -->
             <div class="second-section_icons-box icons-box">
                 <div class="second-section_icons-item icons-item">
-                    <img src="icons/01-Иконка.svg" alt="кубок" class="icons-item_img">
+                    <img src="/src/icons/01-Иконка.svg" alt="кубок" class="icons-item_img">
                     <p class="icons-item_text"> <span>7</span> <br>лет <br> преподавания</p>
 
                 </div>
 
                 <div class="second-section_icons-item icons-item">
-                    <img src="icons/02-Иконка_вторая секкция 1.svg" alt="отзыв" class="icons-item_img">
+                    <img src="/src/icons/02-Иконка_вторая секкция 1.svg" alt="отзыв" class="icons-item_img">
                     <p class="icons-item_text"> <span>276</span> <br>отзывов <br> на 5 звезд</p>
 
                 </div>
 
                 <div class="second-section_icons-item icons-item">
-                    <img src="icons/03-Иконка_вторая секкция 1.svg" alt="студент" class="icons-item_img">
+                    <img src="/src/icons/03-Иконка_вторая секкция 1.svg" alt="студент" class="icons-item_img">
                     <p class="icons-item_text"> <span>314</span> <br>студентов <br> обученно</p>
 
                 </div>
 
                 <div class="second-section_icons-item icons-item">
-                    <img src="icons/04-Иконка_вторая секкция 1.svg" alt="нота" class="icons-item_img">
+                    <img src="/src/icons/04-Иконка_вторая секкция 1.svg" alt="нота" class="icons-item_img">
                     <p class="icons-item_text"> <span>2000</span> <br>часов <br> преподавания</p>
 
                 </div>
@@ -140,7 +163,7 @@
      </section>
 
      <!-- Третья секция -->
-     <section class="third-section">
+     <section id="lessons" class="third-section">
         <div class="container third-section_container">
 
             <!-- Левая обертка -->
@@ -168,7 +191,7 @@
                 <div class="right-wrapper_button buttons">
                     <button class="buttons_main-btn">Забронировать <br> урок</button>
                     <div class="right-wrapper_icon-btn buttons_icon-btn">
-                        <img src="icons/logo_chat.svg" alt="chat">
+                        <img src="/src/icons/logo_chat.svg" alt="chat">
                         <p class="buttons_text">Есть <br> вопросы?</p>
                     </div>
                 </div>
@@ -178,7 +201,7 @@
             <div class="third-section_first-elipse elipse elipse_big">
                 <div class="elipse_subtract elipse_subtract_big"></div>
             </div>
-            <img src="icons/Subtract.svg" alt="crug" class="third-section_figure">
+            <img src="/src/icons/Subtract.svg" alt="crug" class="third-section_figure">
         </div>
 
         <!-- Круг за контейнером -->
@@ -191,7 +214,7 @@
      <!-- Последняя секция -->
      <footer class="footer">
         <div class="container footer_container">
-            <img src="img/Гриф 1.png" alt="Grif" class="footer_img">
+            <img src="/src/img/Гриф 1.png" alt="Grif" class="footer_img">
             <div class="footer_wrapper">
                     <!-- Заголовок -->
                 <h5 class="footer_title title">
@@ -202,21 +225,22 @@
                 <div class="footer_icons-box icons">
                     
                     <div class="icons_item"> 
-                        <img src="icons/Skype.svg" alt="#">
+                        <img src="/src/icons/Skype.svg" alt="#">
                     </div>
                     <div class="icons_item">
-                        <img src="icons/VK.svg" alt="#">
+                        <img src="/src/icons/VK.svg" alt="#">
                     </div>
                     <div class="icons_item">
-                        <img src="icons/Telegram.svg" alt="#">
+                        <img src="/src/icons/Telegram.svg" alt="#">
                     </div>
                     <div class="icons_item">
-                        <img src="icons/instagram.svg" alt="#">
+                        <img src="/src/icons/instagram.svg" alt="#">
                     </div>
                 </div>
             </div>
             
         </div>
      </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
